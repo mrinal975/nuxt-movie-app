@@ -1,5 +1,5 @@
 <template>
-  <div>
-    <h1>Baba loknath</h1>
-  </div>
+  <NuxtLayout>
+    <NuxtPage></NuxtPage>
+  </NuxtLayout>
 </template>
