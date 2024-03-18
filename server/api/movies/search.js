@@ -5,6 +5,7 @@ export default defineEventHandler((event) => {
     method: "GET",
     headers: {
       Authorization: `Bearer ${config.apiKey}`,
+      contextType: "application/json",
     },
   });
 });
